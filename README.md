@@ -84,6 +84,7 @@ HTML5
 
 📜 License
 MIT License – feel free to use, modify, or share.
+[MIT](https://choosealicense.com/licenses/mit/)
 
 🤝 Author
 Emmichailidis<br>
