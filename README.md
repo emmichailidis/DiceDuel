@@ -1,11 +1,11 @@
 # 🎲 Dice Game Web App
 
-![GitHub repo size](https://img.shields.io/github/repo-size/emmichailidis/dice-game)
-![GitHub stars](https://img.shields.io/github/stars/emmichailidis/dice-game?style=social)
-![GitHub forks](https://img.shields.io/github/forks/emmichailidis/dice-game?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/emmichailidis/DiceDuel)
+![GitHub stars](https://img.shields.io/github/stars/emmichailidis/DiceDuel?style=social)
+![GitHub forks](https://img.shields.io/github/forks/emmichailidis/DiceDuel?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/emmichailidis/dice-game)
-![GitHub last commit](https://img.shields.io/github/last-commit/emmichailidis/dice-game)
-![GitHub license](https://img.shields.io/github/license/emmichailidis/dice-game)
+![GitHub last commit](https://img.shields.io/github/last-commit/emmichailidis/DiceDuel)
+![GitHub license](https://img.shields.io/github/license/emmichailidis/DiceDuel)
 
 A fun and interactive **dice game** built with **HTML, CSS, and JavaScript**. Roll dice, customize player names, and see who wins! Fully responsive for desktops, tablets, and smartphones.
 
