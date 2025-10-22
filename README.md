@@ -1,64 +1,56 @@
-# 🎲 Dice Game Web App
+# 🎲 Dice Duel
 
-![GitHub repo size](https://img.shields.io/github/repo-size/emmichailidis/DiceDuel)
-![GitHub stars](https://img.shields.io/github/stars/emmichailidis/DiceDuel?style=social)
-![GitHub forks](https://img.shields.io/github/forks/emmichailidis/DiceDuel?style=social)
-![GitHub issues](https://img.shields.io/github/issues/emmichailidis/DiceDuel)
-![GitHub last commit](https://img.shields.io/github/last-commit/emmichailidis/DiceDuel)
-![GitHub license](https://img.shields.io/github/license/emmichailidis/DiceDuel)
+![Repo Size](https://img.shields.io/github/repo-size/emmichailidis/DiceDuel)
+![Stars](https://img.shields.io/github/stars/emmichailidis/DiceDuel?style=social)
+![Forks](https://img.shields.io/github/forks/emmichailidis/DiceDuel?style=social)
+![Issues](https://img.shields.io/github/issues/emmichailidis/DiceDuel)
+![Last Commit](https://img.shields.io/github/last-commit/emmichailidis/DiceDuel)
+![License](https://img.shields.io/github/license/emmichailidis/DiceDuel)
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
-A fun and interactive **dice game** built with **HTML, CSS, and JavaScript**. Roll dice, customize player names, and see who wins! Fully responsive for desktops, tablets, and smartphones.
+A fun and interactive **Dice Game** built with **HTML, CSS, and JavaScript**. Roll dice, customize player names, and see who wins! Fully responsive for desktops, tablets, and smartphones.
 
 ---
 
 ## 🌟 Features
 
 - 🎯 Random dice roll on each refresh  
-- 🖊️ Edit player names using the **Edit** buttons  
+- 🖊️ Edit player names with **Edit** buttons  
 - 🏆 Winner announcement dynamically shows player names  
 - ✨ Hands next to dice for a realistic rolling effect  
-- 📱 Responsive design for tablets and smartphones  
+- 📱 Fully responsive design  
 - 💾 Names persist across reloads using `localStorage`  
 
 ---
 
 ## 🖼️ Demo
 
-![Dice Game Demo](./images/dice-demo.gif)  
+![Dice Game Demo](./images/dice-demo.gif)
 
-**Live demo:** [View Online](https://emmichailidis.github.io/dice-game/)
+**Live demo:** [View Online](https://emmichailidis.github.io/DiceDuel/)
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository:**
+Follow these steps to play the game:
+
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/emmichailidis/dice-game.git
-Open index.html in your web browser.
+   git clone https://github.com/emmichailidis/DiceDuel.git
 
-Click “Edit” next to a player to set a custom name.
+2. Open index.html in your web browser.
 
-Click the Refresh Me button to roll the dice.
+3. Click “Edit” next to a player to set a custom name.
 
-See which player wins! 🏆
+4. Click the Refresh Me button to roll the dice.
+
+5. See which player wins! 🏆
 
 📁 Folder Structure
-
-dice-game/
-├─ index.html
-├─ styles.css
-├─ main.js
-└─ images/
-   ├─ dice1.png
-   ├─ dice2.png
-   ├─ dice3.png
-   ├─ dice4.png
-   ├─ dice5.png
-   ├─ dice6.png
-   ├─ hand-left.png
-   ├─ hand-right.png
-   └─ dice-demo.gif
+<ul> <li>DiceDuel/ <ul> <li>index.html</li> <li>styles.css</li> <li>main.js</li> <li>images/ <ul> <li>dice1.png</li> <li>dice2.png</li> <li>dice3.png</li> <li>dice4.png</li> <li>dice5.png</li> <li>dice6.png</li> <li>hand-left.png</li> <li>hand-right.png</li> <li>dice-demo.gif</li> </ul> </li> </ul> </li> </ul>
 
 ⚙️ How it Works
 Dice images are randomly selected on page load.
