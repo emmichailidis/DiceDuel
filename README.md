@@ -56,7 +56,7 @@ Follow these steps to play the game:
 <ul>
 <li>Dice images are randomly selected on page load.</li>
 
-<li>The /*<h1> */header updates to show which player wins, or a draw.</li>
+<li>The < h1 > header updates to show which player wins, or a draw.</li>
 
 <li>Player names are editable using a prompt().</li>
 
@@ -65,7 +65,7 @@ Follow these steps to play the game:
 <li>CSS ensures the game is fully responsive for any screen size.</li>
 </ul>
 
-💻 Technulogies
+💻 Technologies
 HTML5
 <ul>
 <li>CSS3 (Flexbox + Media Queries)</li>
