@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/emmichailidis/DiceDuel)
 ![GitHub stars](https://img.shields.io/github/stars/emmichailidis/DiceDuel?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/emmichailidis/DiceDuel?style=social)
-![GitHub issues](https://img.shields.io/github/issues/emmichailidis/dice-game)
+![GitHub issues](https://img.shields.io/github/issues/emmichailidis/DiceDuel)
 ![GitHub last commit](https://img.shields.io/github/last-commit/emmichailidis/DiceDuel)
 ![GitHub license](https://img.shields.io/github/license/emmichailidis/DiceDuel)
 
