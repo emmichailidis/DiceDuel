@@ -53,38 +53,38 @@ Follow these steps to play the game:
 <ul> <li>DiceDuel/ <ul> <li>index.html</li> <li>styles.css</li> <li>main.js</li> <li>images/ <ul> <li>dice1.png</li> <li>dice2.png</li> <li>dice3.png</li> <li>dice4.png</li> <li>dice5.png</li> <li>dice6.png</li> <li>hand-left.png</li> <li>hand-right.png</li> <li>dice-demo.gif</li> </ul> </li> </ul> </li> </ul>
 
 ⚙️ How it Works
-<ul>
-Dice images are randomly selected on page load.
+<ol>
+<li>Dice images are randomly selected on page load.</li>
 
-The '<h1>' header updates to show which player wins, or a draw.
+<li>The "<h1>" header updates to show which player wins, or a draw.</li>
 
-Player names are editable using a prompt().
+<li>Player names are editable using a prompt().</li>
 
-Names are stored in localStorage and persist across reloads.
+<li>Names are stored in localStorage and persist across reloads.</li>
 
-CSS ensures the game is fully responsive for any screen size.
-</ul>
+<li>CSS ensures the game is fully responsive for any screen size.</li>
+</ol>
 
 💻 Technologies
 HTML5
-<ul>
-CSS3 (Flexbox + Media Queries)
+<ol>
+<li>CSS3 (Flexbox + Media Queries)</li>
 
-JavaScript (DOM manipulation, localStorage)
-</ul>
+<li>JavaScript (DOM manipulation, localStorage)</li>
+</ol>
 
 🎨 Customization
-<ul>
-Replace dice or hand images in the images/ folder.
+<ol>
+<li>Replace dice or hand images in the images/ folder.</li>
 
-Adjust sizes, fonts, and colors in styles.css.
+<li>Adjust sizes, fonts, and colors in styles.css.</li>
 
-Add animations (e.g., dice shake) with CSS or JavaScript for more interactivity.
-</ul>
+<li>Add animations (e.g., dice shake) with CSS or JavaScript for more interactivity.</li>
+</ol>
 
 📜 License
 MIT License – feel free to use, modify, or share.
 
 🤝 Author
-Emmichailidis
+Emmichailidis<br>
 Web Games & Fun Projects
