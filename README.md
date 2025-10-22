@@ -44,8 +44,7 @@ Click the Refresh Me button to roll the dice.
 See which player wins! 🏆
 
 📁 Folder Structure
-css
-Copy code
+
 dice-game/
 ├─ index.html
 ├─ styles.css
@@ -60,6 +59,7 @@ dice-game/
    ├─ hand-left.png
    ├─ hand-right.png
    └─ dice-demo.gif
+
 ⚙️ How it Works
 Dice images are randomly selected on page load.
 
