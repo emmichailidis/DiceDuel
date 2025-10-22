@@ -53,29 +53,34 @@ Follow these steps to play the game:
 <ul> <li>DiceDuel/ <ul> <li>index.html</li> <li>styles.css</li> <li>main.js</li> <li>images/ <ul> <li>dice1.png</li> <li>dice2.png</li> <li>dice3.png</li> <li>dice4.png</li> <li>dice5.png</li> <li>dice6.png</li> <li>hand-left.png</li> <li>hand-right.png</li> <li>dice-demo.gif</li> </ul> </li> </ul> </li> </ul>
 
 ⚙️ How it Works
+<ul>
 Dice images are randomly selected on page load.
 
-The <h1> header updates to show which player wins, or a draw.
+The '<h1>' header updates to show which player wins, or a draw.
 
 Player names are editable using a prompt().
 
 Names are stored in localStorage and persist across reloads.
 
 CSS ensures the game is fully responsive for any screen size.
+</ul>
 
 💻 Technologies
 HTML5
-
+<ul>
 CSS3 (Flexbox + Media Queries)
 
 JavaScript (DOM manipulation, localStorage)
+</ul>
 
 🎨 Customization
+<ul>
 Replace dice or hand images in the images/ folder.
 
 Adjust sizes, fonts, and colors in styles.css.
 
 Add animations (e.g., dice shake) with CSS or JavaScript for more interactivity.
+</ul>
 
 📜 License
 MIT License – feel free to use, modify, or share.
