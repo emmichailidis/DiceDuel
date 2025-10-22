@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="RefreshBtn">Refresh Me</h1>
+        <!--trying to fix the align-->  
+      <div class="dice-wrapper">
+  <!-- Player 1 -->
+  <div class="dice">
+    <p>
+      <span class="player-name">Player 1</span>
+      <button class="edit-btn" data-player="1">Edit</button>
+    </p>
+    <div class="hand-dice">
+      <img class="hand hand-left" src="./images/hand-left.png" alt="Hand Left">
+      <img class="img1 hidden" src="" alt="Dice 1">
+    </div>
+  </div>
+
+  <!-- Player 2 -->
+  <div class="dice">
+    <p>
+      <span class="player-name">Player 2</span>
+      <button class="edit-btn" data-player="2">Edit</button>
+    </p>
+    <div class="hand-dice">
+      <img class="img2 hidden" src="" alt="Dice 2">
+      <img class="hand hand-right" src="./images/hand-right.png" alt="Hand Right">
+    </div>
+  </div>
+</div>
+
+    <footer>www 🎲 Emmichailidis/Games 🎲 com</footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
