@@ -65,4 +65,28 @@ window.addEventListener("load", function() {
   } else {
     title.textContent = "😎 It's a Draw!";
   }
+  
 });
+
+// Reset button logic
+document.getElementById("resetBtn").addEventListener("click", function() {
+  // Clear player names from localStorage
+  localStorage.removeItem("player1Name");
+  localStorage.removeItem("player2Name");
+
+  // Reset text to defaults
+  document.getElementById("player1-name").querySelector("button").previousSibling.textContent = "Player 1 ";
+  document.getElementById("player2-name").querySelector("button").previousSibling.textContent = "Player 2 ";
+
+  // Reset header
+  document.querySelector("h1").textContent = "Refresh Me";
+
+  // Hide dice (optional)
+  document.querySelector(".img1").setAttribute("src", "");
+  document.querySelector(".img2").setAttribute("src", "");
+
+  // Confirmation message
+  alert("Game has been reset!");
+});
+
+

@@ -83,6 +83,25 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 
+#resetBtn {
+  background-color: #4ECCA3;
+  color: #232931;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#resetBtn:hover {
+  background-color: aqua;
+  transform: scale(1.05);
+}
+
+
 /* Tablets */
 @media (max-width: 1024px) {
   .dice-wrapper {
