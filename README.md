@@ -17,7 +17,8 @@ A fun and interactive **Dice Game** built with **HTML, CSS, and JavaScript**. Ro
 ## 🌟 Features
 
 - 🎯 Random dice roll on each refresh  
-- 🖊️ Edit player names with **Edit** buttons  
+- 🖊️ Edit player names with **Edit** buttons
+- 🔁 **Reset Game** button clears names and dice results 
 - 🏆 Winner announcement dynamically shows player names  
 - ✨ Hands next to dice for a realistic rolling effect  
 - 📱 Fully responsive design  
@@ -48,6 +49,7 @@ Follow these steps to play the game:
 4. Click the Refresh Me button to roll the dice.
 
 5. See which player wins! 🏆
+6. Click Reset Game to clear names and start over.
 
 📁 Folder Structure
 <ul> <li>DiceDuel/ <ul> <li>index.html</li> <li>styles.css</li> <li>main.js</li> <li>images/ <ul> <li>dice1.png</li> <li>dice2.png</li> <li>dice3.png</li> <li>dice4.png</li> <li>dice5.png</li> <li>dice6.png</li> <li>hand-left.png</li> <li>hand-right.png</li> <li>dice-demo.gif</li> </ul> </li> </ul> </li> </ul>
@@ -61,6 +63,8 @@ Follow these steps to play the game:
 <li>Player names are editable using a prompt().</li>
 
 <li>Names are stored in localStorage and persist across reloads.</li>
+
+<li>The **Reset Game** button clears stored player names, resets dice, and restores default text.</li>
 
 <li>CSS ensures the game is fully responsive for any screen size.</li>
 </ul>
