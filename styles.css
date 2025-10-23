@@ -101,6 +101,12 @@ footer {
   transform: scale(1.05);
 }
 
+.controls {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+
 
 /* Tablets */
 @media (max-width: 1024px) {
