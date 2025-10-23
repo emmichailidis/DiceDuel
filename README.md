@@ -11,6 +11,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
 A fun and interactive **Dice Game** built with **HTML, CSS, and JavaScript**. Roll dice, customize player names, and see who wins! Fully responsive for desktops, tablets, and smartphones.
+[![Play the Game](https://img.shields.io/badge/🎲%20Play%20Dice%20Duel-blue?style=for-the-badge)](https://emmichailidis.github.io/DiceDuel/)
 
 ---
 
