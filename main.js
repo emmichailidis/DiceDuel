@@ -21,19 +21,19 @@ document.querySelectorAll(".dice")[0].querySelector(".player-name").textContent 
 document.querySelectorAll(".dice")[1].querySelector(".player-name").textContent = player2Name;
 
 // Edit buttons logic
-document.querySelectorAll(".edit-btn").forEach(function(btn){
-  btn.addEventListener("click", function(){
+document.querySelectorAll(".edit-btn").forEach(function(btn) {
+  btn.addEventListener("click", function() {
     var player = btn.getAttribute("data-player");
     var name = prompt("Enter name for " + (player === "1" ? "Player 1" : "Player 2"));
-    if(name && name.trim() !== ""){
+    if (name && name.trim() !== "") {
       name = name.trim();
-      if(player === "1"){
+      if (player === "1") {
         player1Name = name;
-        localStorage.setItem("player1Name", player1Name); // save to localStorage
+        localStorage.setItem("player1Name", player1Name);
         document.querySelectorAll(".dice")[0].querySelector(".player-name").textContent = player1Name;
       } else {
         player2Name = name;
-        localStorage.setItem("player2Name", player2Name); // save to localStorage
+        localStorage.setItem("player2Name", player2Name);
         document.querySelectorAll(".dice")[1].querySelector(".player-name").textContent = player2Name;
       }
     }
@@ -42,7 +42,6 @@ document.querySelectorAll(".edit-btn").forEach(function(btn){
 
 // When the page loads
 window.addEventListener("load", function() {
-
   // Random numbers for Player 1 and Player 2
   var randomNumber1 = Math.floor(Math.random() * 6);
   var randomNumber2 = Math.floor(Math.random() * 6);
@@ -65,7 +64,11 @@ window.addEventListener("load", function() {
   } else {
     title.textContent = "😎 It's a Draw!";
   }
-  
+});
+
+// Refresh button logic
+document.getElementById("RefreshBtn").addEventListener("click", function() {
+  location.reload();
 });
 
 // Reset button logic
@@ -74,19 +77,19 @@ document.getElementById("resetBtn").addEventListener("click", function() {
   localStorage.removeItem("player1Name");
   localStorage.removeItem("player2Name");
 
-  // Reset text to defaults
-  document.getElementById("player1-name").querySelector("button").previousSibling.textContent = "Player 1 ";
-  document.getElementById("player2-name").querySelector("button").previousSibling.textContent = "Player 2 ";
+  // Reset displayed names
+  document.querySelectorAll(".dice")[0].querySelector(".player-name").textContent = "Player 1";
+  document.querySelectorAll(".dice")[1].querySelector(".player-name").textContent = "Player 2";
 
   // Reset header
-  document.querySelector("h1").textContent = "Refresh Me";
+  document.getElementById("RefreshBtn").textContent = "Refresh Me";
 
-  // Hide dice (optional)
+  // Hide dice
   document.querySelector(".img1").setAttribute("src", "");
   document.querySelector(".img2").setAttribute("src", "");
+  document.querySelector(".img1").classList.add("hidden");
+  document.querySelector(".img2").classList.add("hidden");
 
   // Confirmation message
   alert("Game has been reset!");
 });
-
-
