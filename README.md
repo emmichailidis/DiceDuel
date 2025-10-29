@@ -51,10 +51,10 @@ Follow these steps to play the game:
 
 5. See which player wins! 🏆
 6. Click Reset Game to clear names and start over.
-
+ ```bash
 📁 Folder Structure
 <ul> <li>DiceDuel/ <ul> <li>index.html</li> <li>styles.css</li> <li>main.js</li> <li>images/ <ul> <li>dice1.png</li> <li>dice2.png</li> <li>dice3.png</li> <li>dice4.png</li> <li>dice5.png</li> <li>dice6.png</li> <li>hand-left.png</li> <li>hand-right.png</li> <li>dice-demo.gif</li> </ul> </li> </ul> </li> </ul>
-
+ ```
 ⚙️ How it Works
 <ul>
 <li>Dice images are randomly selected on page load.</li>
